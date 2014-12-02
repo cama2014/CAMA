@@ -1,0 +1,167 @@
+
+body{
+
+    background-color: whitesmoke;
+
+}
+
+.container {
+    
+    width: 90%;
+    
+}
+@media (min-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/*header*/
+
+.header-row{
+
+    background-color: #222;
+
+}
+
+.col-lg-2.logo{
+
+    color: white;
+    outline: solid thin orange;
+
+}
+
+/*nav*/
+
+.navbar-collapse {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    margin-top: 12px;
+}
+
+.nav a {
+
+    color:white;
+    font-size: 15px;
+
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+
+    text-decoration: none;
+    background-color: #222;
+    color: red;
+
+}
+
+.btn-default{
+    
+color: white;
+background-color: #222;
+border: none;
+font-size: 20px;
+    
+}
+
+.btn-default:hover{
+    
+    background-color: #222;
+    color: white;
+    
+}
+
+/*undermeny*/
+
+/*hover på kille/tjej*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-menu li a{
+    
+    color: #222;
+    
+}
+
+.dropdown:hover .dropdown-menu li a:hover {
+    
+    background-color: whitesmoke;
+    color: red;
+    
+}
+
+
+/*slideshow*/
+
+.col-lg-12.slideshow{
+
+    background-color: white;
+    outline: solid thin orange;
+    height: 600px;
+    margin-top: 40px;
+
+}
+
+/*section*/
+
+.section-container{
+    
+    padding-bottom: 40px;
+    background-color: olivedrab;
+    
+}
+
+.col-lg-12.rea{
+
+    background-color: pink;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+.col-lg-3.trebox{
+
+    background-color: white;
+    outline: solid thin orange;
+    height: 400px;
+    margin-top: 10px;   
+
+}
+
+/*footer*/
+
+.footer-row{
+
+    background-color: #222;
+    height: 200px;
+
+}
+
+.col-lg-4.footer{
+
+    border-right: solid thin white; 
+    background-color: gold;
+    height: 200px;
+
+}
+
+.col-lg-4.footer:last-of-type{
+
+    border-right: none;
+
+}
