@@ -148,20 +148,40 @@ font-size: 20px;
 .footer-row{
 
     background-color: #222;
-    height: 200px;
+    
+    
 
 }
-
-.col-lg-4.footer{
-
-    border-right: solid thin white; 
-    background-color: gold;
-    height: 200px;
-
+.footer-container{
+    overflow:auto;
 }
 
-.col-lg-4.footer:last-of-type{
-
-    border-right: none;
-
+.col-lg-6.footer{
+    margin-top: 20px;
+    margin-left:-15px;
 }
+.col-lg-6.footer p{
+    margin-bottom: 13px;
+    color:white;
+    font-size:15px;
+}
+
+.col-lg-2.footer {
+    margin-top: 20px;
+    margin-left:-15px;
+}
+.col-lg-2.footer img{
+    float:left;
+    margin-right:20px;
+    margin-bottom: 20px;
+    
+}
+
+h2{
+    font-size:20px;
+    color:white;
+    margin-bottom:20px;
+}
+
+
+
