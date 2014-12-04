@@ -1,0 +1,186 @@
+
+
+body{
+
+    background-color: whitesmoke;
+
+}
+
+.container {
+    
+    width: 90%;
+    
+}
+@media (min-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/*header*/
+
+.header-row{
+
+    background-color: #222;
+
+}
+
+.col-lg-2.logo{
+
+    color: white;
+    outline: solid thin orange;
+
+}
+
+/*nav*/
+
+.navbar-collapse {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    margin-top: 12px;
+}
+
+.nav a {
+
+    color:white;
+    font-size: 15px;
+
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+
+    text-decoration: none;
+    background-color: #222;
+    color: red;
+
+}
+
+.btn-default{
+    
+color: white;
+background-color: #222;
+border: none;
+font-size: 20px;
+    
+}
+
+.btn-default:hover{
+    
+    background-color: #222;
+    color: white;
+    
+}
+
+/*undermeny*/
+
+/*hover på kille/tjej*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-menu li a{
+    
+    color: #222;
+    
+}
+
+.dropdown:hover .dropdown-menu li a:hover {
+    
+    background-color: whitesmoke;
+    color: red;
+    
+}
+
+
+/*section */
+.col-lg-6.section{
+    margin-top:20px;
+    margin-bottom:40px;
+    padding-left:0px;
+}
+
+
+.row.rubrik-row{
+    margin-top:20px;
+    height:60px;
+    border-bottom: solid 4px #ADADAC;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+h4,h5{
+    font-size:40px;
+}
+h5{
+    margin-left:40px;
+}
+.col-lg-6.section2 p{
+    margin-left:40px;
+    //sätt max width så de blir 40px mellan rum till höger.
+}
+                 
+
+
+/*footer*/
+
+.footer-row{
+ background-color: #222;
+
+}
+.footer-container{
+    overflow:auto;
+}
+
+.col-lg-4.footer{
+    margin-top: 20px;
+    margin-left:-15px;
+}
+.col-lg-4.footer p{
+    margin-bottom: 13px;
+    color:white;
+    font-size:15px;
+}
+
+.col-lg-3.footer p{
+    color:white;
+    margin-bottom: -2.5px;
+    
+}
+
+.col-lg-3.footer {
+    margin-top: 20px;
+    margin-left:-15px;
+}
+.col-lg-2.footer img{
+    float:left;
+    margin-right:20px;
+    margin-bottom: 20px;
+}
+.col-lg-2.footer {
+    margin-top:20px;
+}
+
+h2{
+    font-size:20px;
+    color:white;
+    margin-bottom:20px;
+}
+
+
+
